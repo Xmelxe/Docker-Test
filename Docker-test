@@ -1,8 +1,8 @@
 # Basis-Image mit Python
 FROM python:3.11-slim
 
-# Arbeitsverzeichnis im Container
-WORKDIR /app
+# Arbeitsverzeichnis im Container 
+WORKDIR /app 
 
 # Anforderungen kopieren und installieren
 COPY requirements.txt .
